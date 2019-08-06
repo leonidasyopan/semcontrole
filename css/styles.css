@@ -1,0 +1,26 @@
+/*  
+// MOBILE FIRST APPROACH - GENERAL STYLE FIRST
+*/
+
+/* Resetting border, padding, margin and the box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Color Theme Swatches in RGBA */
+.roxo-escuro { color: rgba(140, 43, 133, 1); }
+.roxo-medio { color: rgba(114, 37, 109, 1); }
+.roxo-claro { color: rgba(165, 111, 162, 1); }
+.laranja-escuro { color: rgba(242, 98, 46, 1); }
+.laranja-claro { color: rgba(242, 148, 113, 1); }
+
+/* SMALL SCREENS */
+
+body {
+    background-color: rgba(242, 98, 46, 1);
+    height: 100vh;
+    width: 100vh;
+}
