@@ -163,9 +163,19 @@ footer {
     grid-row-gap: 1em;
 }
 
+.three-video-columns div {
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
 .three-video-columns div iframe{
-    display: block;
-    margin: 0 auto;
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 
