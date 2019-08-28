@@ -151,6 +151,23 @@ footer {
 	height: 100%;
 }
 
+/*
+** Videos Page
+*/ 
+
+.three-video-columns {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.three-video-columns div iframe{
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* 
 // MEDIUM SCREENS - MEDIA QUERY BREAK
@@ -183,6 +200,19 @@ footer {
     header nav div:nth-of-type(5) {
         grid-column: 5;
     }
+
+    /*
+    ** Videos Page
+    */
+
+    .three-video-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+    }
+    
+
 }
 
 /*  
@@ -192,6 +222,20 @@ footer {
     .video-container iframe {  
         width: 960px;
         height: 540px;
+    }
+
+    /*
+    ** Videos Page
+    */
+
+    .three-video-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }  
+
+    .three-video-columns div iframe{
+        
     }
     
 }
