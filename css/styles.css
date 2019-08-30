@@ -178,6 +178,24 @@ footer {
 	height: 100%;
 }
 
+/*
+** Quem Somos Page
+*/
+
+#quem-somos-main h3 {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#quem-somos-main figure {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#quem-somos-main figure img {
+    width: 100%;        
+}
+
 
 /* 
 // MEDIUM SCREENS - MEDIA QUERY BREAK
@@ -222,7 +240,22 @@ footer {
         grid-row-gap: 1em;
     }
     
+    /*
+    ** Quem Somos Page
+    */
 
+    #quem-somos-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 3em;
+    }
+
+    #quem-somos-main section {
+        grid-column: 2 / span 2;
+    }
+
+    
 }
 
 /*  
