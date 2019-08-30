@@ -137,8 +137,12 @@ footer div {
 }
 
 footer div img {
-    width: 35px;
-    height: auto;
+    width: auto;
+    height: 35px;
+}
+
+.icons-footer figure {
+    margin-left: 20px;
 }
 
 /* HOME MAIN */
