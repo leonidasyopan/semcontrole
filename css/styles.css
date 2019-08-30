@@ -129,6 +129,18 @@ footer {
     padding-left: 10px;
 }
 
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px; 
+}
+
+footer div img {
+    width: 35px;
+    height: auto;
+}
+
 /* HOME MAIN */
 
 #home-main h2 {
