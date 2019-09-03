@@ -217,10 +217,6 @@ footer div img {
 ** Contato Page
 */
 
-#contato-main {
-    display: flex;
-}
-
 #contato-main form {    
     background-color: rgba(55, 0, 60, 1);
     padding: 25px;
@@ -291,6 +287,21 @@ footer div img {
     box-shadow:  2px 2px  2px rgba(228, 228, 228, 0.5);
 }
 
+#imagem-direita {
+    margin: 0 auto;
+}
+
+#imagem-direita figure {
+    display: block;
+    margin: 20px auto 0 auto;    
+    width: 80%;
+    height: auto;
+}
+
+#imagem-direita figure img {
+    width: 100%;
+}
+
 /* 
 // MEDIUM SCREENS - MEDIA QUERY BREAK
 */
@@ -349,7 +360,33 @@ footer div img {
         grid-column: 2 / span 2;
     }
 
+    /*
+    ** Contato Page
+    */
+
+    #contato-main {
+        display: flex;
+    }
+
+    #contact-form {
+        width: 50%;
+    }
+
+    #imagem-direita {
+        width: 45%;
+        margin-top: -25px;
+    }
     
+    #imagem-direita figure {
+        padding-left: 20px;
+        max-height: 400px;
+        width: auto;
+    }
+    
+    #imagem-direita figure img {
+        max-height: 400px;
+        width: auto;
+    }
 }
 
 /*  
@@ -373,6 +410,22 @@ footer div img {
 
     .three-video-columns div iframe{
         
+    }
+
+    /*
+    ** Contato Page
+    */
+
+    #contact-form {
+        width: 60%;
+    }
+
+    #imagem-direita {
+        width: 40%;
+    }
+
+    #imagem-direita figure {
+        padding-left: 100px;
     }
     
 }
