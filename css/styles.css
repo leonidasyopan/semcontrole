@@ -217,6 +217,11 @@ footer div img {
 ** Contato Page
 */
 
+#contato-main {
+    padding-top: 100px;
+    min-height: 600px;
+}
+
 #contato-main form {    
     background-color: rgba(55, 0, 60, 1);
     padding: 25px;
