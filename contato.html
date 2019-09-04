@@ -29,21 +29,21 @@
     <main class="content-width" id="contato-main">        
 
         <div id="contact-form">
-            <form>
+            <form name="contato-form" id="contato-form" class="contato-form" method="POST" action="send_form_email.php">
                 <fieldset>
                     <legend>Deixe-nos a sua opinião:</legend>
                     
-                        <label for="Name">Nome:</label>
-                        <input type="text" name="Name" id="Name" placeholder="Nome completo" /> 
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name" placeholder="Nome completo" /> 
                     
-                        <label for="Email">Email:</label>
-                        <input type="text" name="Email" id="Email" placeholder="seunome@email.com" />
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" id="email" placeholder="seunome@email.com" />
                     
                     
-                        <label for="Message">Message:</label><br />
-                        <textarea name="Message" rows="3" id="Message" placeholder="Vocês poderiam..."></textarea>
+                        <label for="message">Mensagem:</label><br />
+                        <textarea name="message" rows="3" id="message" placeholder="Vocês poderiam..."></textarea>
 
-                        <button>Send</button>
+                        <button>Enviar</button>
                     
                 </fieldset>
             </form>
