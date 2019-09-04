@@ -152,7 +152,13 @@ footer div img {
 
 #home-main h2 {
     text-align: center;
-    margin: 1em 0;
+    margin: 1em 0 0 0;
+}
+
+#home-main h3 {
+    text-align: center;
+    margin: 0;
+    font-style: italic;
 }
 
 .video-container {

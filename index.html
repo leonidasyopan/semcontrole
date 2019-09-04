@@ -34,10 +34,39 @@
 
         <p>Nosso programa vai ao ar todas às Quartas-feiras às 21:00h no canal UrbanTV, canal 11 da Olé TV. Você também pode assistir online no site urbantv.com.br ou em nosso canal do YouTube. Inscreva-se em nosso canal e nos acompanhe no Instagram. Venha assim participar e nos ajudar a 'falar de tudo'. </p>
 
-        <h2>Assista ao programa mais recente:</h2> 
+        <h2>Acompanhe o program ao vivo na UrbanTV:</h2>
+        <h3 id="home-heading-three">Quartas-feiras às 21h</h3> 
         
-        <div class="video-container content-width">
+        <div class="video-container content-width">            
+            <div style="position:relative; margin:0; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    
+                <script type='text/javascript' src='https://wse03.logicahost.com.br:2000/system/misc/jwplayer7/jwplayer.js?2.4.1'></script>
+                <script type="text/javascript">jwplayer.key="B/yOGRlIMkFUoB0ucF8n4MOBh/SHV6t2TjRDU5TzVfI=";</script><div id='MediaPlayerMiniPlayer'>Loading...</div>
+                <script type='text/javascript'>
+                jwplayer('MediaPlayerMiniPlayer').setup({
+                sources: [
+                {file: "https://5cf4a2c2512a2.streamlock.net:443/urbantv/urbantv/playlist.m3u8"},
+                {file: "rtmps://5cf4a2c2512a2.streamlock.net:443/urbantv/urbantv"}
+                ],
+                rtmp: {
+                bufferlength: 3,
+                },
+                'autostart': 'true',
+                'width': '100%',
+                'aspectratio': '16:9',
+                'height': '270',
+                'fallback': false,
+                'androidhls': true,
+                'primary': 'html5'
+                });
+                </script>                           
+
+            </div>
+
+
+            <!--
             <iframe src="https://www.youtube.com/embed/YVWxqknaWys" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            -->
         </div>
 
     </main>
