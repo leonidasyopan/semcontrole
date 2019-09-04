@@ -42,11 +42,13 @@ p {
 main {
     padding-top: 50px;
     padding-bottom: 50px;
+    min-height: 600px;
 }
 
 .content-width {
     max-width: 960px;
     margin: 0 auto;
+    
 }
 
 /* TEMPORARY */
@@ -217,11 +219,6 @@ footer div img {
 ** Contato Page
 */
 
-#contato-main {
-    padding-top: 100px;
-    min-height: 600px;
-}
-
 #contato-main form {    
     background-color: rgba(55, 0, 60, 1);
     padding: 25px;
@@ -355,6 +352,7 @@ footer div img {
     */
 
     #quem-somos-main {
+        padding: 100px 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
@@ -370,7 +368,8 @@ footer div img {
     */
 
     #contato-main {
-        display: flex;
+        display: flex;        
+        padding: 100px 0;      
     }
 
     #contact-form {
