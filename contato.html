@@ -34,19 +34,20 @@
                     <legend>Deixe-nos a sua opinião:</legend>
                     
                         <label for="name">Nome:</label>
-                        <input type="text" name="name" id="name" placeholder="Nome completo" /> 
+                        <input type="text" name="name" id="name" placeholder="Nome completo" pattern=[A-Z\sa-z]{3,20} required> 
                     
                         <label for="email">E-mail:</label>
-                        <input type="text" name="email" id="email" placeholder="seunome@email.com" />
+                        <input type="text" name="email" id="email" placeholder="seunome@email.com" required>
                     
                     
                         <label for="message">Mensagem:</label><br />
-                        <textarea name="message" rows="3" id="message" placeholder="Vocês poderiam..."></textarea>
+                        <textarea name="message" rows="3" id="message" placeholder="Vocês poderiam..." required></textarea>
 
-                        <button>Enviar</button>
+                        <button type="submit">Enviar</button>
                     
                 </fieldset>
             </form>
+
         </div>
 
         <div id="imagem-direita">
