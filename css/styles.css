@@ -352,6 +352,17 @@ footer div img {
     width: 100%;
 }
 
+/*
+** Erros Pages
+*/
+
+.error-main .error-message {
+    margin: 50px 0 250px 0;
+    color: rgba(126, 0, 138, 1);
+    font-weight: bold;
+    font-size: 20px;
+}
+
 /* 
 // MEDIUM SCREENS - MEDIA QUERY BREAK
 */

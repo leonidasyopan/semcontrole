@@ -26,13 +26,13 @@ if($_POST) {
     .'From: ' . $email . "\r\n";
     
     if(mail($recipient, $email_title, $message, $headers)) {
-        echo "<p>Obrigado pela mensagem, $name. Daremos um retorno prontamente.</p>";
+        header("location: obrigado.html");
     } else {
-        echo '<p>Infelizmente a mensagem não pode ser enviada.</p>';
+        header("location: erro.html");
     }
     
 } else {
-    echo '<p>Desculpe-nos. Houve algum erro. Tente novamente, por favor.</p>';
+    header("location: erro.html");
 }
 
 ?>
