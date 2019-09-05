@@ -3,8 +3,7 @@
 if($_POST) {
     $name = "";
     $email = "";
-    $message = "";
-    $email_title = "Contato Site";
+    $message = "";    
 
     if(isset($_POST['name'])) {
         $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
@@ -20,6 +19,7 @@ if($_POST) {
     }
     
     $recipient = "contato@semcontrole.online";
+    $email_title = "Contato do site vindo de " . $name;
         
     $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
