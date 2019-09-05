@@ -40,22 +40,20 @@ p {
 }
 
 main {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    min-height: 600px;
+    
 }
 
 .content-width {
     max-width: 960px;
     margin: 0 auto;
-    
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* TEMPORARY */
 
 main {    
-    padding-left: 10px;
-    padding-right: 10px;
+    
 }
 
 header {
@@ -150,6 +148,10 @@ footer div img {
 ** Home Page
 */ 
 
+#home-main h1 {
+    margin-top: 50px;
+}
+
 #home-main h2 {
     text-align: center;
     margin: 1em 0 0 0;
@@ -176,9 +178,45 @@ footer div img {
 	height: 100%;
 }
 
+#video-home {
+    margin-bottom: 50px;
+}
+
+#inscreva-convite {    
+    background-color: rgba(126, 0, 138, 1);
+    padding: 50px 0;
+    text-align:center;
+}
+
+#inscreva-convite p {
+    color: #FFFFFF;
+}
+
+#inscreva-convite svg {
+    width: 150px;
+    height: auto;
+}
+
+#inscreva-convite svg:hover path {
+    fill: #E02F2F;
+    transition: all 1s;
+    
+}
+
+#inscreva-convite svg:hover polygon {
+    fill: #FFFFFF;
+    transition: all 50ms;
+    
+}
+
 /*
 ** Videos Page
 */ 
+
+#videos-main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .three-video-columns {
     margin: 20px 0;
@@ -224,6 +262,10 @@ footer div img {
 /*
 ** Contato Page
 */
+
+#contato-main {
+    min-height: 600px;
+}
 
 #contato-main form {    
     background-color: rgba(55, 0, 60, 1);
